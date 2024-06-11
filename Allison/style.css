@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(226, 195, 158);
+}
+
+table, th, td {
+    border: 2px solid;
+    font-size: 50px;
+  }
+
+h1{
+    font-size: 100px;
+}
+
+img{
+    height: 240px;
+    margin-top: 10px;
+}
+
+.t{
+    height: 100px;
+    margin: auto;
+}
