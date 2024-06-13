@@ -2,21 +2,62 @@
     background-color: rgb(226, 195, 158);
 }
 
-table, th, td {
+td {
     border: 2px solid;
     font-size: 50px;
+    color: rgb(247, 83, 110);
+    border: 3px solid #000;
   }
+
+td{
+    border-radius: 50px;
+}
 
 h1{
     font-size: 100px;
+    color: rgb(221, 63, 147);
 }
 
 img{
-    height: 240px;
+    height: 230px;
     margin-top: 10px;
+    border-radius: 60px;
 }
 
-.t{
-    height: 100px;
-    margin: auto;
+#int {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 90px;
+    color: rgb(255, 99, 125);
+}
+#int img {
+    position: absolute;
+    right: 10px; /* Añade 10px de espacio desde el borde derecho */
+    height: 60px;
+}
+h5 {
+    margin: 0;
+}
+
+#int2 {
+    margin-top: 80px; /* Añade 80px de margen superior */
+    display: flex; /* Usa el modelo de caja flexible (flexbox) */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    position: relative; /* Posiciona relativo al flujo normal */
+    font-size: 90px; /* Tamaño de fuente de 90px */
+    color: rgb(255, 99, 125); /* Color del texto en rojo */
+}
+
+#int2 img {
+    position: absolute; /* Posiciona absolutamente */
+    left: 10px; /* Añade 10px de espacio desde el borde izquierdo */
+    height: 60px; /* Altura de la imagen de 60px */
+}
+
+h5 {
+    margin: 0; /* Elimina el margen por defecto */
 }
